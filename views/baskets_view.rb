@@ -15,7 +15,7 @@ class BasketsView
     end
     puts '--------------------'
     puts ''
-    puts "Total price - #{basket.total_price.round(2)}€"
+    puts "Total price - #{basket.total_price}€"
     puts ''
     puts '       ******       '
   end
