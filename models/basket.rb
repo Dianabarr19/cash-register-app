@@ -36,4 +36,7 @@ class Basket
     products[product.code] += 1
   end
 
+  def remove(product)
+    products[product.code] -= 1
+  end
 end

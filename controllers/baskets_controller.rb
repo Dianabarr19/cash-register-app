@@ -18,6 +18,12 @@ class BasketsController
     @baskets_view.display_total(@basket, @basket.product_repo)
   end
 
+  def destroy
+    product = select_product
+    @basket.remove(product)
+    @baskets_view.display_total(@basket, @basket.product_repo)
+  end
+
   private
 
   def select_product
