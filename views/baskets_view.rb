@@ -4,3 +4,4 @@ class BasketsView
       puts "#{index + 1}. #{product.name} - #{product.price}€"
     end
   end
+end
