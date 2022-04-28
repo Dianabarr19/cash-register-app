@@ -1,3 +1,4 @@
+require_relative "repositories/product_repo"
 require_relative 'models/product'
 
 coffee = Product.new(name: "Coffee", price: 11.23, code: "CF1")
