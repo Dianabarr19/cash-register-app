@@ -8,6 +8,12 @@ class BasketsController
   end
 
   def add
+    product = nil
+
+    while product.nil?
+      product = select_product
+    end
+
     @basket.add(product)
     @baskets_view.display_total(@basket, @basket.product_repo)
   end
