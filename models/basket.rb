@@ -14,4 +14,9 @@ class Basket
       discount = @discount_repo.find(code)
     end
   end
+
+  def add(product)
+    products[product.code] += 1
+  end
+
 end
