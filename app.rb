@@ -4,6 +4,7 @@ require_relative "models/basket"
 require_relative "models/product"
 require_relative "models/discount"
 require_relative "controllers/baskets_controller"
+require_relative "router"
 
 product_repository = ProductRepository.new
 
@@ -17,5 +18,13 @@ product_repository.create(strawberries)
 
 discount_repository = DiscountRepository.new
 
+discount_repository.create(Discount.new(product: tea, type: 'bogo'))
+discount_repository.create(Discount.new(product: strawberries, type: 'price drop', quantity: 3, value: 4.5))
+discount_repository.create(Discount.new(product: coffee, type: '2/3 discount', quantity: 3, value: 2 / 3.to_f))
+
 basket = Basket.new(product_repo: product_repository, discount_repo: discount_repository)
+
 baskets_controller = BasketsController.new(basket)
+
+router = Router.new(baskets_controller)
+router.run

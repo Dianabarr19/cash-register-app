@@ -11,4 +11,13 @@ class BasketsController
     @basket.add(product)
     @baskets_view.display_total(@basket, @basket.product_repo)
   end
+
+  private
+
+  def select_product
+    products = @basket.product_repo.all
+    @baskets_view.display(products)
+    index = @baskets_view.ask_user_for_index
+    return products[index]
+  end
 end
