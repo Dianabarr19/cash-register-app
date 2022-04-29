@@ -14,7 +14,7 @@ This app is build following a MVC pattern that allows us to organize the code in
 
 <h2>Project Insights: </h2>
   <br>
-  I decided to add a discount repository as it seemed easier to store current and future discounts there; I thought this could be the best way to make it easier to expand. Each product is composed by 3 attributes: code, name and price. Each item has a unique code, for example: Green Tea’s code is GR1. And price is the regular price of the product (without discount). 
+  I decided to add a discount repository as it seemed easier to store current and future discounts there; I thought this could be the best way to make it easier to expand. Each product is composed by 3 attributes: code, name and price. Each item has a unique <strong> code </strong>, for example: Green Tea’s code is GR1. And <strong> price </strong> means the regular price of the product (without discount). 
 
 In the same way, each discount has 4 attributes: product, type, quantity, and value. 
 <ul>
