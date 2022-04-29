@@ -1,16 +1,16 @@
-require_relative "repositories/product_repo"
-require_relative "repositories/discount_repo"
-require_relative "models/basket"
-require_relative "models/product"
-require_relative "models/discount"
-require_relative "controllers/baskets_controller"
-require_relative "router"
+require_relative 'repositories/product_repo'
+require_relative 'repositories/discount_repo'
+require_relative 'models/basket'
+require_relative 'models/product'
+require_relative 'models/discount'
+require_relative 'controllers/baskets_controller'
+require_relative 'router'
 
 product_repository = ProductRepository.new
 
-tea = Product.new(name: "Green Tea", price: 3.11, code: "GR1")
-strawberries = Product.new(name: "Strawberries", price: 5, code: "SR1")
-coffee = Product.new(name: "Coffee", price: 11.23, code: "CF1")
+tea = Product.new(name: 'Green Tea', price: 3.11, code: 'GR1')
+strawberries = Product.new(name: 'Strawberries', price: 5, code: 'SR1')
+coffee = Product.new(name: 'Coffee', price: 11.23, code: 'CF1')
 
 product_repository.create(tea)
 product_repository.create(strawberries)

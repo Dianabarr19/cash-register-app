@@ -19,6 +19,7 @@ describe "Basket", :basket do
     @discount_repo.create(Discount.new(product: strawberries, type: 'price drop', quantity: 3, value: 4.5))
     @discount_repo.create(Discount.new(product: coffee, type: '2/3 discount', quantity: 3, value: 2 / 3.to_f))
   end
+
   describe '#products' do
     it 'should return a hash with all the products' do
       products = {
@@ -100,6 +101,7 @@ describe "Basket", :basket do
 
         expect(basket.total_price).to eq(30.57)
       end
+
     end
   end
 end
