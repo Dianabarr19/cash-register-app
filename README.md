@@ -30,8 +30,8 @@ In the same way, each discount has 4 attributes: product, type, quantity, and va
   <br>
   Even though this is a small app, it was quite challenging as I consider myself to be more of a front end developer, and the last months I have been doing CSS and HTML mostly, and learning react; so I had to dust off my ruby knowledge. 
   <br>
-    <p align="center">
+    <center>
     ![](https://c.tenor.com/58DNSt-Lvw0AAAAM/corgi-computer.gif)
-    </p>
+    </center>
   <br>
   Despite there are some minor changes that I would like to implement later on; overall, I am happy with the final result of the app. I believe is straightforward and easily adaptable
