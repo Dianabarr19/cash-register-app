@@ -4,7 +4,7 @@
 With this small and simple app, the user is able to add and remove products to/from a basket and the app will automatically compute the total price. Taking into account different promotions: 
 
 <ul>
-  <li> Bogo – in this case if you buy one you get one free; </li>
+  <li> **Bogo** – in this case if you buy one you get one free; </li>
   <li> Price Drop – if you buy more than 3 specific items the price will drop .50 €; and lastly, </li>
   <li> 2/3 Discount – if you buy more than 3 of certain product the price will drop 33%. </li>
 </ul>
