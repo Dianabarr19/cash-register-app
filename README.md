@@ -12,4 +12,3 @@ I decided to add a discount repository as it seemed easier to store current and 
 Even though this is a small app, it was quite challenging as I consider myself to be more of a front end developer, and the last months I have been doing CSS and HTML mostly, and learning react; so I had to dust off my ruby knowledge. 
 
 Despite there are some minor changes that I would like to implement later on; overall, I am happy with the final result of the app. I believe is straightforward and easily adaptable
-![image](https://user-images.githubusercontent.com/90432547/165948339-b9be111a-02c0-4b21-8fa9-321e84aaa51c.png)
